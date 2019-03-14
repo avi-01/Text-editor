@@ -1,0 +1,54 @@
+body{
+    margin:0;
+}
+
+.team{
+    margin-top: 0;
+    color: rgb(1, 112, 1);
+    background-image: url("header.jpg");
+    height:200px;
+    text-align: center;
+}
+
+.name{
+    padding:10px;
+    font-size:50px;
+}
+
+.editor{
+    background-color:#fff;
+    width:60%;
+    margin: 0 auto;
+    transform: translateY(-120px);
+}
+
+#nav{
+    background-color: rgba(0, 90, 0, 0.705);
+    padding: 5px 10px;
+}
+
+button{
+    color:white;
+    border:none;
+    outline:none;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: greenyellow;
+    transition-duration: 0.3s;
+}
+#text{
+    border: 2px solid rgba(0, 90, 0, 0.705);
+    box-sizing: border-box;
+    padding:20px;
+    width: 100%;
+    min-height: 370px;
+}
+
+input[type="color"]{
+    border: none;
+    outline:none;
+    background-color: transparent;
+}
